@@ -1,0 +1,130 @@
+
+  
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 35px; /* Adjust this value to set the space between navbar items */
+}
+
+p{
+    color: black;
+    font-size: 17px;
+
+}
+
+.text-weight{
+    font-weight: 700px;
+}
+
+
+.slide-content {
+
+    overflow: hidden;
+    border-radius: 0;
+  }
+  
+  .card {
+    border-radius: 0;
+    border: none;
+  }
+  
+  .image-content,
+  .card-content {
+  
+    align-items: center;
+  
+  }
+  
+  
+  .overlay::before,
+  .overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #2eb5d9;
+  }
+  
+  .overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+  }
+  
+  
+  .name {
+    font-size: 25px;
+    font-weight: 500;
+  
+  }
+  
+  .description {
+    font-size: 17px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #2eb5d9;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button:hover {
+    background: #2eb5d9;
+  }
+  
+  .swiper-navBtn {
+    color: #2eb5d9;
+    transition: color 0.3s ease;
+  }
+  
+  .swiper-navBtn:hover {
+    color: #2eb5d9;
+  }
+  
+  .swiper-navBtn::before,
+  .swiper-navBtn::after {
+    font-size: 35px;
+  }
+  
+  .swiper-button-next {
+    right: 0;
+  }
+  
+  .swiper-button-prev {
+    left: 0;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #2eb5d9;
+    opacity: 1;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #2eb5d9;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .slide-content {
+      margin: 0 10px;
+    }
+  
+    .swiper-navBtn {
+      display: none;
+    }
+  } 
+
+

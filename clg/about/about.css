@@ -1,0 +1,12 @@
+p{
+    font-size: 17px;
+}
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 35px; /* Adjust this value to set the space between navbar items */
+}
